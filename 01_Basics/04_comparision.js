@@ -45,7 +45,7 @@ undefined < 0: Similar to the previous comparison, undefined is treated as NaN w
                less than (<) operator. Since NaN is not less than 0, the result is false.
 
 */
-
+// = assign value
 // == used to compare values
 // === used to compare values as well as data types 
 
