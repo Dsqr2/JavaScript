@@ -46,6 +46,7 @@ undefined < 0: Similar to the previous comparison, undefined is treated as NaN w
 
 */
 
-// ===
+// == used to compare values
+// === used to compare values as well as data types 
 
 console.log("2" === 2); //False
