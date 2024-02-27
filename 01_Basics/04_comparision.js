@@ -32,6 +32,20 @@ console.log(undefined == 0); //False
 console.log(undefined > 0); //False
 console.log(undefined < 0); //False
 
+/*
+
+undefined == 0: The equality operator (==) in JavaScript performs type coercion. However, 
+                undefined is not equal to 0 under any circumstances, so the result is false.
+
+undefined > 0: When comparing undefined with a number using the greater than (>) operator, 
+               undefined is treated as NaN (Not a Number). In JavaScript, any comparison 
+               involving NaN results in false, so the result is false.
+
+undefined < 0: Similar to the previous comparison, undefined is treated as NaN when using the 
+               less than (<) operator. Since NaN is not less than 0, the result is false.
+
+*/
+
 // ===
 
 console.log("2" === 2); //False
